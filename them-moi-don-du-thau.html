@@ -1,0 +1,431 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Đấu thầu</title>
+
+    <link rel="icon" href="img/logo.svg" sizes="any" type="image/svg+xml">
+    <link rel="stylesheet" href="libs/css/bootstrap.min.css">
+    <link rel="stylesheet" href="libs/css/all.css">
+    <link rel="stylesheet" href="libs/css/swiper.css">
+    <link rel="stylesheet" href="libs/css/animate.css">
+    <link rel="stylesheet" href="libs/css/multiple-select.css">
+    <link rel="stylesheet" href="scss/main.min.css">
+</head>
+<body>
+<div id="wrapper">
+    <header class="header">
+        <div class="container">
+            <div class="flex-header">
+                <div class="head-left">
+                    <div class="navigation">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <img class="icon-logo" src="img/logo.svg" alt="img">Dashboard
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="icon-nav" src="img/icon-qt.svg" alt="img">
+                                    <span>Quản trị hệ thống</span>
+                                    <img class="icon-agldown" src="img/icon-agldownnav.svg" alt="img">
+                                </a>
+                                <div class="block-dropdown">
+                                    <ul>
+                                        <li class="active"><a href="#">Quản lý 1</a></li>
+                                        <li><a href="#">Quản lý 2</a></li>
+                                        <li><a href="#">Quản lý 3</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="active">
+                                <a href="#">
+                                    <img class="icon-nav" src="img/icon-dt.svg" alt="img">
+                                    <span>Đấu thầu trái phiếu</span>
+                                    <img class="icon-agldown" src="img/icon-agldownnav.svg" alt="img">
+                                </a>
+                                <div class="block-dropdown">
+                                    <ul>
+                                        <li><a href="#">Đầu thầu 1</a></li>
+                                        <li><a href="#">Đầu thầu 2</a></li>
+                                        <li><a href="#">Đầu thầu 3</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="icon-nav" src="img/icon-tc.svg" alt="img">
+                                    <span>Tra cứu tổng hợp</span>
+                                    <img class="icon-agldown" src="img/icon-agldownnav.svg" alt="img">
+                                </a>
+                                <div class="block-dropdown">
+                                    <ul>
+                                        <li><a href="#">Tra cứu 1</a></li>
+                                        <li><a href="#">Tra cứu 2</a></li>
+                                        <li><a href="#">Tra cứu 3</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="icon-nav" src="img/icon-bc.svg" alt="img">
+                                    <span>Báo cáo</span>
+                                    <img class="icon-agldown" src="img/icon-agldownnav.svg" alt="img">
+                                </a>
+                                <div class="block-dropdown">
+                                    <ul>
+                                        <li><a href="#">Báo cáo 1</a></li>
+                                        <li><a href="#">Báo cáo 2</a></li>
+                                        <li><a href="#">Báo cáo 3</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="icon-nav" src="img/icon-tk.svg" alt="img">
+                                    <span>Thống kê</span>
+                                    <img class="icon-agldown" src="img/icon-agldownnav.svg" alt="img">
+                                </a>
+                                <div class="block-dropdown">
+                                    <ul>
+                                        <li><a href="#">Thống kê 1</a></li>
+                                        <li><a href="#">Thống kê 2</a></li>
+                                        <li><a href="#">Thống kê 3</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="head-right">
+                    <div class="times">
+                        <div>09:12:26</div>
+                        <div>Thứ 2, 06/12/2021</div>
+                    </div>
+                    <div class="notify">
+                        <img src="img/icon-notify.svg" alt="img">
+                        <span>99+</span>
+                    </div>
+                    <div class="user">
+                        <div class="name-user">
+                            <div>Hà  Thị Quỳnh Trang</div>
+                            <div>BID.04</div>
+                        </div>
+                        <div class="avt"><img src="img/avt.png" alt="img"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <div class="bread-crumb">
+                <a href="#"><img class="icon-home" src="img/icon-home.svg" alt="img"></a>
+                <span><img src="img/icon-angleleft.svg" alt="img"></span>
+                <a href="#">Đấu thầu trái phiếu</a>
+                <span><img src="img/icon-angleleft.svg" alt="img"></span>
+                <a href="#">Thêm mới đề nghị phát hành mới TP</a>
+            </div>
+
+            <form>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="block-add h-100">
+                            <div class="box-top">
+                                <h3 class="title-add">Thông tin chi tiết thông báo thầu</h3>
+                                <div class="info-basic">
+                                    <div class="row">
+                                        <div class="col-lg-5"><div class="title-info">Tổ chức PH</div></div>
+                                        <div class="col-lg-7"><div class="value-info">Kho bạc Nhà nước</div></div>
+                                        <div class="col-lg-5"><div class="title-info">Số công văn HNX</div></div>
+                                        <div class="col-lg-7"><div class="value-info">44444</div></div>
+                                        <div class="col-lg-5"><div class="title-info">Ngày công văn HNX</div></div>
+                                        <div class="col-lg-7"><div class="value-info">15/11/2021</div></div>
+                                        <div class="col-lg-5"><div class="title-info">Tiền tệ</div></div>
+                                        <div class="col-lg-7"><div class="value-info">VND</div></div>
+                                        <div class="col-lg-5"><div class="title-info">Loại TP</div></div>
+                                        <div class="col-lg-7"><div class="value-info">Trái phiếu Chính phủ</div></div>
+                                        <div class="col-lg-5"><div class="title-info">PT xác định KQ</div></div>
+                                        <div class="col-lg-7"><div class="value-info">Đơn giá</div></div>
+                                        <div class="col-lg-5"><div class="title-info">Loại hình đấu thầu</div></div>
+                                        <div class="col-lg-7"><div class="value-info">Phát hành mới</div></div>
+                                        <div class="col-lg-5"><div class="title-info">Đợt của TCPH</div></div>
+                                        <div class="col-lg-7"><div class="value-info">7</div></div>
+                                        <div class="col-lg-5"><div class="title-info">Ngày tổ chức PH</div></div>
+                                        <div class="col-lg-7"><div class="value-info">15/11/2021</div></div>
+                                        <div class="col-lg-5"><div class="title-info">Ngày PH của đợt ĐT</div></div>
+                                        <div class="col-lg-7"><div class="value-info">15/11/2021</div></div>
+                                        <div class="col-lg-5"><div class="title-info">Ngày TT tiền mua TP</div></div>
+                                        <div class="col-lg-7"><div class="value-info">15/11/2021</div></div>
+                                        <div class="col-lg-5"><div class="title-info">Hình thức ĐT</div></div>
+                                        <div class="col-lg-7"><div class="value-info">Cạnh tranh lãi suất</div></div>
+                                        <div class="col-lg-5"><div class="title-info">Hạn nộp phiếu dự thầu</div></div>
+                                        <div class="col-lg-7"><div class="value-info">14:00 ngày 16/11/2021</div></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box-top">
+                                <h3 class="title-add">Thông tin chi tiết</h3>
+                                <div class="info-basic">
+                                    <div class="row">
+                                        <div class="col-lg-5"><div class="title-info">Tên đợt đấu thầu</div></div>
+                                        <div class="col-lg-7"><div class="value-info">999999</div></div>
+                                        <div class="col-lg-5"><div class="title-info">Mã TP</div></div>
+                                        <div class="col-lg-7"><div class="value-info">TP000000</div></div>
+                                        <div class="col-lg-5"><div class="title-info">Mệnh giá TP</div></div>
+                                        <div class="col-lg-7"><div class="value-info">100,000</div></div>
+                                        <div class="col-lg-5"><div class="title-info">LS danh nghĩa</div></div>
+                                        <div class="col-lg-7"><div class="value-info">7.00%</div></div>
+                                        <div class="col-lg-5"><div class="title-info">Định kỳ TL</div></div>
+                                        <div class="col-lg-7"><div class="value-info">6 Tháng</div></div>
+                                        <div class="col-lg-5"><div class="title-info">KL gọi thầu</div></div>
+                                        <div class="col-lg-7"><div class="value-info">5,000,000,000 VND</div></div>
+                                        <div class="col-lg-5"><div class="title-info">Hình thức bán TP</div></div>
+                                        <div class="col-lg-7"><div class="value-info">Bán ngang, cao hơn hoặc thấp hơn mệnh giá</div></div>
+                                        <div class="col-lg-5"><div class="title-info">Kiểu phát hành</div></div>
+                                        <div class="col-lg-7"><div class="value-info">Lần đầu</div></div>
+                                        <div class="col-lg-5"><div class="title-info">Loại hình trả lãi</div></div>
+                                        <div class="col-lg-7"><div class="value-info">Coupon</div></div>
+                                        <div class="col-lg-5"><div class="title-info">Phương thức TL</div></div>
+                                        <div class="col-lg-7"><div class="value-info">Định kỳ - cuối kỳ</div></div>
+                                        <div class="col-lg-5"><div class="title-info">Kỳ hạn TP</div></div>
+                                        <div class="col-lg-7"><div class="value-info">10 năm</div></div>
+                                        <div class="col-lg-5"><div class="title-info">Ngày đáo hạn</div></div>
+                                        <div class="col-lg-7"><div class="value-info">16/11/2031</div></div>
+                                        <div class="col-lg-5"><div class="title-info">Loại lãi suất</div></div>
+                                        <div class="col-lg-7"><div class="value-info">Cố định</div></div>
+                                        <div class="col-lg-5"><div class="title-info">Kiểu trả lãi</div></div>
+                                        <div class="col-lg-7"><div class="value-info">Standard Coupon</div></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="block-add h-100">
+                            <div class="box-top">
+                                <h3 class="title-add">Thông tin chi tiết thông báo thầu</h3>
+                                <div class="body-search box-field-info">
+                                    <div class="box-search ">
+                                        <div class="item-search">
+                                            <label>Loại hình phiên thầu</label>
+                                            <select class="sl-multiple">
+                                                <option>value1</option>
+                                                <option>value2</option>
+                                            </select>
+                                        </div>
+                                        <div class="item-search">
+                                            <label>Sô công văn HNX</label>
+                                            <select class="sl-multiple">
+                                                <option>value1</option>
+                                                <option>value2</option>
+                                            </select>
+                                        </div>
+                                        <div class="item-search">
+                                            <label>Mã TP</label>
+                                            <select class="sl-multiple">
+                                                <option>value1</option>
+                                                <option>value2</option>
+                                            </select>
+                                        </div>
+                                        <div class="item-search">
+                                            <label>Mã Thành viên</label>
+                                            <select class="sl-multiple" disabled>
+                                                <option>value1</option>
+                                                <option>value2</option>
+                                            </select>
+                                        </div>
+                                        <div class="item-search">
+                                            <label>Thành viên/Khách hàng</label>
+                                            <select class="sl-multiple">
+                                                <option>value1</option>
+                                                <option>value2</option>
+                                            </select>
+                                        </div>
+                                        <div class="item-search">
+                                            <label>Tài khoản NĐT</label>
+                                            <select class="sl-multiple">
+                                                <option>value1</option>
+                                                <option>value2</option>
+                                            </select>
+                                        </div>
+                                        <div class="item-search">
+                                            <label>Đăng ký thầu (Một/Nhiều TKLK)</label>
+                                            <select class="sl-multiple" disabled>
+                                                <option>value1</option>
+                                                <option>value2</option>
+                                            </select>
+                                        </div>
+                                        <div class="item-search">
+                                            <label>Nguyên tắc phân bổ</label>
+                                            <select class="sl-multiple" disabled>
+                                                <option>value1</option>
+                                                <option>value2</option>
+                                            </select>
+                                        </div>
+                                        <div class="item-search">
+                                            <label>Tham gia phiên mua thêm</label>
+                                            <select class="sl-multiple">
+                                                <option>value1</option>
+                                                <option>value2</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <ul class="nav nav-tabs tab-popup mt-3">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" data-toggle="tab" href="#dkpbt" role="tab" aria-controls="home" aria-selected="true">Đăng ký phân bổ thầu</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab" href="#ttddt" role="tab" aria-controls="profile" aria-selected="false">Thông tin đợt đấu thầu</a>
+                                    </li>
+                                </ul>
+                                <div class="tab-content" id="myTabContent">
+                                    <div class="tab-pane fade show active" id="dkpbt" role="tabpanel" aria-labelledby="home-tab">
+                                        <div class="body-search">
+                                            <div class="box-search ">
+                                                <div class="item-search w-6666">
+                                                    <label>Tài khoản lưu ký</label>
+                                                    <select class="sl-multiple">
+                                                        <option>value1</option>
+                                                        <option>value2</option>
+                                                    </select>
+                                                </div>
+                                                <div class="item-search w-3333">
+                                                    <label>Hình thức đặt thầu</label>
+                                                    <select class="sl-multiple" disabled>
+                                                        <option>value1</option>
+                                                        <option>value2</option>
+                                                    </select>
+                                                </div>
+                                                <div class="item-search w-3333">
+                                                    <label>Lãi suất (%)</label>
+                                                    <input type="text">
+                                                </div>
+                                                <div class="item-search w-3333">
+                                                    <label>KL đặt thầu (GT theo MG)</label>
+                                                    <input type="text">
+
+                                                </div>
+                                                <div class="item-search w-3333">
+                                                    <label>KL đặt thầu (bằng chữ)</label>
+                                                    <input type="text" disabled>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="tab-pane fade" id="ttddt" role="tabpanel" aria-labelledby="profile-tab">
+                                        <div class="body-search">
+                                            <div class="box-search ">
+                                                <div class="item-search w-6666">
+                                                    <label>Tài khoản lưu ký</label>
+                                                    <select class="sl-multiple">
+                                                        <option>value1</option>
+                                                        <option>value2</option>
+                                                    </select>
+                                                </div>
+                                                <div class="item-search w-3333">
+                                                    <label>Hình thức đặt thầu</label>
+                                                    <select class="sl-multiple" disabled>
+                                                        <option>value1</option>
+                                                        <option>value2</option>
+                                                    </select>
+                                                </div>
+                                                <div class="item-search w-3333">
+                                                    <label>Lãi suất (%)</label>
+                                                    <input type="text">
+                                                </div>
+                                                <div class="item-search w-3333">
+                                                    <label>KL đặt thầu (GT theo MG)</label>
+                                                    <input type="text">
+
+                                                </div>
+                                                <div class="item-search w-3333">
+                                                    <label>KL đặt thầu (bằng chữ)</label>
+                                                    <input type="text" disabled>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="button-utilities">
+                                <button>Thêm</button>
+                                <button>Cập nhật</button>
+                                <button>Xóa</button>
+                                <button>Làm mới</button>
+                            </div>
+                            <div class="tbl-popup">
+                                <table>
+                                    <thead>
+                                    <tr>
+                                        <th>Hình thức đặt thầu</th>
+                                        <th>Số TKLK</th>
+                                        <th>Lãi suất đặt thầu</th>
+                                        <th>KL đặt thầu (GT theo MG)</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td>Cạnh tranh lãi suất</td>
+                                        <td>TVĐT</td>
+                                        <td>2.08</td>
+                                        <td>1,000,000,000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Cạnh tranh lãi suất</td>
+                                        <td>TVĐT</td>
+                                        <td>2.08</td>
+                                        <td>1,000,000,000</td>
+                                    </tr>
+                                    </tbody>
+                                    <tfoot>
+                                    <tr>
+                                        <td colspan="3"></td>
+
+                                        <td>Tổng =5,000,000,000,000</td>
+                                    </tr>
+                                    </tfoot>
+                                </table>
+                            </div>
+                            <div class="foot-info">
+                                <button class="btn-save"><img src="img/icon-save.svg" alt="img">Lưu</button>
+                                <button class="btn-cancel"><img src="img/icon-cancel.svg" alt="img">Hủy lệnh</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </form>
+        </div>
+
+    </main>
+
+
+</div>
+
+<a href="javascript:0;" id="back-to-top"><i class="fas fa-angle-up"></i></a>
+
+<script type="text/javascript" src="libs/js/jquery.min.js"></script>
+<script type="text/javascript" src="libs/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="libs/js/swiper.js"></script>
+<script type="text/javascript" src="libs/js/jquery.multiple.select.js"></script>
+<script type="text/javascript" src="libs/js/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
+<script type="text/javascript" src="libs/js/script.js"></script>
+</body>
+</html>

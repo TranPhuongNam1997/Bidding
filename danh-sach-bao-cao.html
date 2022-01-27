@@ -1,0 +1,439 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Đấu thầu</title>
+
+    <link rel="icon" href="img/logo.svg" sizes="any" type="image/svg+xml">
+    <link rel="stylesheet" href="libs/css/bootstrap.min.css">
+    <link rel="stylesheet" href="libs/css/all.css">
+    <link rel="stylesheet" href="libs/css/swiper.css">
+    <link rel="stylesheet" href="libs/css/animate.css">
+    <link rel="stylesheet" href="libs/css/multiple-select.css">
+    <link rel="stylesheet" href="scss/main.min.css">
+</head>
+<body>
+<div id="wrapper">
+    <header class="header">
+        <div class="container">
+            <div class="flex-header">
+                <div class="head-left">
+                    <div class="navigation">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <img class="icon-logo" src="img/logo.svg" alt="img">Dashboard
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="icon-nav" src="img/icon-qt.svg" alt="img">
+                                    <span>Quản trị hệ thống</span>
+                                    <img class="icon-agldown" src="img/icon-agldownnav.svg" alt="img">
+                                </a>
+                                <div class="block-dropdown">
+                                    <ul>
+                                        <li class="active"><a href="#">Quản lý 1</a></li>
+                                        <li><a href="#">Quản lý 2</a></li>
+                                        <li><a href="#">Quản lý 3</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="active">
+                                <a href="#">
+                                    <img class="icon-nav" src="img/icon-dt.svg" alt="img">
+                                    <span>Đấu thầu trái phiếu</span>
+                                    <img class="icon-agldown" src="img/icon-agldownnav.svg" alt="img">
+                                </a>
+                                <div class="block-dropdown">
+                                    <ul>
+                                        <li><a href="#">Đầu thầu 1</a></li>
+                                        <li><a href="#">Đầu thầu 2</a></li>
+                                        <li><a href="#">Đầu thầu 3</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="icon-nav" src="img/icon-tc.svg" alt="img">
+                                    <span>Tra cứu tổng hợp</span>
+                                    <img class="icon-agldown" src="img/icon-agldownnav.svg" alt="img">
+                                </a>
+                                <div class="block-dropdown">
+                                    <ul>
+                                        <li><a href="#">Tra cứu 1</a></li>
+                                        <li><a href="#">Tra cứu 2</a></li>
+                                        <li><a href="#">Tra cứu 3</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="icon-nav" src="img/icon-bc.svg" alt="img">
+                                    <span>Báo cáo</span>
+                                    <img class="icon-agldown" src="img/icon-agldownnav.svg" alt="img">
+                                </a>
+                                <div class="block-dropdown">
+                                    <ul>
+                                        <li><a href="#">Báo cáo 1</a></li>
+                                        <li><a href="#">Báo cáo 2</a></li>
+                                        <li><a href="#">Báo cáo 3</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="icon-nav" src="img/icon-tk.svg" alt="img">
+                                    <span>Thống kê</span>
+                                    <img class="icon-agldown" src="img/icon-agldownnav.svg" alt="img">
+                                </a>
+                                <div class="block-dropdown">
+                                    <ul>
+                                        <li><a href="#">Thống kê 1</a></li>
+                                        <li><a href="#">Thống kê 2</a></li>
+                                        <li><a href="#">Thống kê 3</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="head-right">
+                    <div class="times">
+                        <div>09:12:26</div>
+                        <div>Thứ 2, 06/12/2021</div>
+                    </div>
+                    <div class="notify">
+                        <img src="img/icon-notify.svg" alt="img">
+                        <span>99+</span>
+                    </div>
+                    <div class="user">
+                        <div class="name-user">
+                            <div>Hà  Thị Quỳnh Trang</div>
+                            <div>BID.04</div>
+                        </div>
+                        <div class="avt"><img src="img/avt.png" alt="img"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <div class="bread-crumb">
+                <a href="#"><img class="icon-home" src="img/icon-home.svg" alt="img"></a>
+                <span><img src="img/icon-angleleft.svg" alt="img"></span>
+                <a href="#">Báo cáo thống kê</a>
+            </div>
+
+            <div class="block-add pb-3">
+                <div class="box-top">
+                    <h3 class="title-add mb-0">Thông tin đợt đấu thầu</h3>
+                </div>
+                <div class="info-report">
+                    <div class="report-list">
+                        <div class="item-report">
+                            <div class="head-report">
+                                <div>
+                                    <img src="img/icon-bcdk.svg" alt="img"><span>Báo cáo Đăng ký</span>
+                                </div>
+                                <img class="icon-bc" src="img/icon-angledown.svg" alt="img">
+                            </div>
+                            <div class="child-list">
+                                <ul>
+                                    <li>
+                                        <a href="javascript:0;" data-toggle="modal" data-target="#popupreport">
+                                            <span>TK002</span>
+                                            <span>Thống kê tỉ trọng tham gia đấu thầu của thành viên</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>TK002</span>
+                                            <span>Thống kê tỉ trọng tham gia đấu thầu của thành viên</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>TK002</span>
+                                            <span>Thống kê tỉ trọng tham gia đấu thầu của thành viên</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>TK002</span>
+                                            <span>Thống kê tỉ trọng tham gia đấu thầu của thành viên</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="item-report">
+                            <div class="head-report">
+                                <div>
+                                    <img src="img/icon-bcdk.svg" alt="img"><span>Báo cáo Tổng hợp</span>
+                                </div>
+                                <img class="icon-bc" src="img/icon-angledown.svg" alt="img">
+                            </div>
+                            <div class="child-list">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <span>TK002</span>
+                                            <span>Thống kê tỉ trọng tham gia đấu thầu của thành viên</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>TK002</span>
+                                            <span>Thống kê tỉ trọng tham gia đấu thầu của thành viên</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>TK002</span>
+                                            <span>Thống kê tỉ trọng tham gia đấu thầu của thành viên</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>TK002</span>
+                                            <span>Thống kê tỉ trọng tham gia đấu thầu của thành viên</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="item-report">
+                            <div class="head-report">
+                                <div>
+                                    <img src="img/icon-bcdk.svg" alt="img"><span>Báo cáo Thanh toán</span>
+                                </div>
+                                <img class="icon-bc" src="img/icon-angledown.svg" alt="img">
+                            </div>
+                            <div class="child-list">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <span>TK002</span>
+                                            <span>Thống kê tỉ trọng tham gia đấu thầu của thành viên</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>TK002</span>
+                                            <span>Thống kê tỉ trọng tham gia đấu thầu của thành viên</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>TK002</span>
+                                            <span>Thống kê tỉ trọng tham gia đấu thầu của thành viên</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>TK002</span>
+                                            <span>Thống kê tỉ trọng tham gia đấu thầu của thành viên</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="item-report">
+                            <div class="head-report">
+                                <div>
+                                    <img src="img/icon-bcdk.svg" alt="img"><span>Báo cáo Khác</span>
+                                </div>
+                                <img class="icon-bc" src="img/icon-angledown.svg" alt="img">
+                            </div>
+                            <div class="child-list">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <span>TK002</span>
+                                            <span>Thống kê tỉ trọng tham gia đấu thầu của thành viên</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>TK002</span>
+                                            <span>Thống kê tỉ trọng tham gia đấu thầu của thành viên</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>TK002</span>
+                                            <span>Thống kê tỉ trọng tham gia đấu thầu của thành viên</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>TK002</span>
+                                            <span>Thống kê tỉ trọng tham gia đấu thầu của thành viên</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+
+
+</div>
+
+
+<!-- popup report -->
+<div class="modal fade modal-report" id="popupreport" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="header-report">
+                <h3>Thống kê tỉ trọng tham gia đấu thầu của thành viên</h3>
+                <button class="btn-close" data-dismiss="modal" aria-label="Close"><img src="img/icon-close.svg" alt="img"></button>
+            </div>
+            <div class="body-report">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="flex-report">
+                            <div class="title-report">TCPH từ ngày</div>
+                            <div class="field-report">
+                                <select class="sl-multiple">
+                                    <option>value1</option>
+                                    <option>value2</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="flex-report">
+                            <div class="title-report">Đến ngày</div>
+                            <div class="field-report">
+                                <select class="sl-multiple">
+                                    <option>value1</option>
+                                    <option>value2</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="flex-report">
+                            <div class="title-report">Mã TV</div>
+                            <div class="field-report">
+                                <select class="sl-multiple">
+                                    <option>value1</option>
+                                    <option>value2</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="flex-report">
+                            <div class="title-report">Tiền tệ</div>
+                            <div class="field-report">
+                                <select class="sl-multiple">
+                                    <option>value1</option>
+                                    <option>value2</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="flex-report">
+                            <div class="title-report">Loại TP</div>
+                            <div class="field-report">
+                                <select class="sl-multiple">
+                                    <option>value1</option>
+                                    <option>value2</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="flex-report">
+                            <div class="title-report">Kỳ hạn</div>
+                            <div class="field-report">
+                                <select class="sl-multiple">
+                                    <option>value1</option>
+                                    <option>value2</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="flex-report">
+                            <div class="title-report">Người duyệt</div>
+                            <div class="field-report">
+                                <select class="sl-multiple">
+                                    <option>value1</option>
+                                    <option>value2</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="flex-report">
+                            <div class="title-report">Chức danh KT</div>
+                            <div class="field-report">
+                                <input type="text">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="flex-report">
+                            <div class="title-report">Tên người duyệt</div>
+                            <div class="field-report">
+                                <input type="text">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="flex-report">
+                            <div class="title-report">ngày báo cáo</div>
+                            <div class="field-report">
+                                <select class="sl-multiple">
+                                    <option>value1</option>
+                                    <option>value2</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="flex-report">
+                            <div class="title-report">TCPH từ ngày</div>
+                            <div class="field-report">
+                                <textarea></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="foot-report text-right">
+                <button class="btn-save"><img src="img/icon-save.svg" alt="img">Chấp nhận</button>
+                <button class="btn-cancel" data-dismiss="modal" aria-label="Close"><img src="img/icon-cancel.svg" alt="img">Thoát</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<a href="javascript:0;" id="back-to-top"><i class="fas fa-angle-up"></i></a>
+
+<script type="text/javascript" src="libs/js/jquery.min.js"></script>
+<script type="text/javascript" src="libs/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="libs/js/swiper.js"></script>
+<script type="text/javascript" src="libs/js/jquery.multiple.select.js"></script>
+<script type="text/javascript" src="libs/js/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
+<script type="text/javascript" src="libs/js/script.js"></script>
+</body>
+</html>

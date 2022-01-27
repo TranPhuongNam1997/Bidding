@@ -1,0 +1,635 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Đấu thầu</title>
+
+    <link rel="icon" href="img/logo.svg" sizes="any" type="image/svg+xml">
+    <link rel="stylesheet" href="libs/css/bootstrap.min.css">
+    <link rel="stylesheet" href="libs/css/all.css">
+    <link rel="stylesheet" href="libs/css/swiper.css">
+    <link rel="stylesheet" href="libs/css/animate.css">
+    <link rel="stylesheet" href="libs/css/multiple-select.css">
+    <link rel="stylesheet" href="scss/main.min.css">
+</head>
+<body>
+<div id="wrapper">
+    <header class="header">
+        <div class="container">
+            <div class="flex-header">
+                <div class="head-left">
+                    <div class="navigation">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <img class="icon-logo" src="img/logo.svg" alt="img">Dashboard
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="icon-nav" src="img/icon-qt.svg" alt="img">
+                                    <span>Quản trị hệ thống</span>
+                                    <img class="icon-agldown" src="img/icon-agldownnav.svg" alt="img">
+                                </a>
+                                <div class="block-dropdown">
+                                    <ul>
+                                        <li class="active"><a href="#">Quản lý 1</a></li>
+                                        <li><a href="#">Quản lý 2</a></li>
+                                        <li><a href="#">Quản lý 3</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="active">
+                                <a href="#">
+                                    <img class="icon-nav" src="img/icon-dt.svg" alt="img">
+                                    <span>Đấu thầu trái phiếu</span>
+                                    <img class="icon-agldown" src="img/icon-agldownnav.svg" alt="img">
+                                </a>
+                                <div class="block-dropdown">
+                                    <ul>
+                                        <li><a href="#">Đầu thầu 1</a></li>
+                                        <li><a href="#">Đầu thầu 2</a></li>
+                                        <li><a href="#">Đầu thầu 3</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="icon-nav" src="img/icon-tc.svg" alt="img">
+                                    <span>Tra cứu tổng hợp</span>
+                                    <img class="icon-agldown" src="img/icon-agldownnav.svg" alt="img">
+                                </a>
+                                <div class="block-dropdown">
+                                    <ul>
+                                        <li><a href="#">Tra cứu 1</a></li>
+                                        <li><a href="#">Tra cứu 2</a></li>
+                                        <li><a href="#">Tra cứu 3</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="icon-nav" src="img/icon-bc.svg" alt="img">
+                                    <span>Báo cáo</span>
+                                    <img class="icon-agldown" src="img/icon-agldownnav.svg" alt="img">
+                                </a>
+                                <div class="block-dropdown">
+                                    <ul>
+                                        <li><a href="#">Báo cáo 1</a></li>
+                                        <li><a href="#">Báo cáo 2</a></li>
+                                        <li><a href="#">Báo cáo 3</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="icon-nav" src="img/icon-tk.svg" alt="img">
+                                    <span>Thống kê</span>
+                                    <img class="icon-agldown" src="img/icon-agldownnav.svg" alt="img">
+                                </a>
+                                <div class="block-dropdown">
+                                    <ul>
+                                        <li><a href="#">Thống kê 1</a></li>
+                                        <li><a href="#">Thống kê 2</a></li>
+                                        <li><a href="#">Thống kê 3</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="head-right">
+                    <div class="times">
+                        <div>09:12:26</div>
+                        <div>Thứ 2, 06/12/2021</div>
+                    </div>
+                    <div class="notify">
+                        <img src="img/icon-notify.svg" alt="img">
+                        <span>99+</span>
+                    </div>
+                    <div class="user">
+                        <div class="name-user">
+                            <div>Hà  Thị Quỳnh Trang</div>
+                            <div>BID.04</div>
+                        </div>
+                        <div class="avt"><img src="img/avt.png" alt="img"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <div class="bread-crumb">
+                <a href="#"><img class="icon-home" src="img/icon-home.svg" alt="img"></a>
+                <span><img src="img/icon-angleleft.svg" alt="img"></span>
+                <a href="#">Đấu thầu trái phiếu</a>
+                <span><img src="img/icon-angleleft.svg" alt="img"></span>
+                <a href="#">Đăng ký danh sách NĐT tham dự thầu</a>
+            </div>
+
+            <div class="block-search">
+                <h3 class="title-search">Chọn đợt đấu thầu</h3>
+                <div class="box-search">
+                    <div class="item-search">
+                        <select class="sl-multiple">
+                            <option>value1</option>
+                            <option>value2</option>
+                        </select>
+                    </div>
+                    <div class="item-search">
+                        <select class="sl-multiple">
+                            <option>value1</option>
+                            <option>value2</option>
+                        </select>
+                    </div>
+                    <div class="item-search">
+                        <select class="sl-multiple">
+                            <option>value1</option>
+                            <option>value2</option>
+                        </select>
+                    </div>
+                    <div class="item-search">
+                        <select class="sl-multiple">
+                            <option>value1</option>
+                            <option>value2</option>
+                        </select>
+                    </div>
+
+                </div>
+            </div>
+            <div class="block-data">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="box-data">
+                            <h3 class="title-data">Thông tin đợt thầu</h3>
+                            <div class="zone-data">
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <div class="title-dt">Tổ chức PH</div>
+                                    </div>
+                                    <div class="col-lg-9">
+                                        <div class="value-dt">Kho bạc Nhà nước</div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <div class="title-dt">Tổ chức PH</div>
+                                    </div>
+                                    <div class="col-lg-2">
+                                        <div class="value-dt">Daotao02</div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="title-dt">Loại hình đầu tư</div>
+
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="value-dt">Phát hành mới</div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <div class="title-dt">Ngày công văn TCPH</div>
+                                    </div>
+                                    <div class="col-lg-2">
+                                        <div class="value-dt">15/11/2021</div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="title-dt">Loại TP</div>
+
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="value-dt">Trái phiếu Chính phủ</div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <div class="title-dt">Ngày TCPH</div>
+                                    </div>
+                                    <div class="col-lg-2">
+                                        <div class="value-dt">15/11/2021</div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="title-dt">Hình thức TP</div>
+
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="value-dt">Ghi sổ</div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <div class="title-dt">Ngày PH</div>
+                                    </div>
+                                    <div class="col-lg-2">
+                                        <div class="value-dt">15/11/2021</div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="title-dt">Thời gian nộp phiếu dự thầu</div>
+
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="value-dt">Trước 10h30 ngày 15/11/2021</div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <div class="title-dt">Ngày công bố kết quả</div>
+                                    </div>
+                                    <div class="col-lg-2">
+
+
+                                        <div class="value-dt">15/11/2021</div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="title-dt">Tiền tệ</div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="value-dt"></div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <div class="title-dt">Ngày TT tiền mua TP</div>
+                                    </div>
+                                    <div class="col-lg-2">
+                                        <div class="value-dt">15/11/2021</div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="title-dt">Phước thức TT gốc TP</div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="value-dt">Thanh toán 1 lần sau khi đáo hạn</div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <div class="title-dt">Hình thức ĐT</div>
+                                    </div>
+                                    <div class="col-lg-9">
+                                        <div class="value-dt">Kết hợp cạnh tranh lãi suất và không cạnh tranh lãi suất</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="box-data">
+                            <h3 class="title-data">Thông tin chi tiết đợt đấu thầu</h3>
+                            <div class="zone-data">
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <div class="title-dt">Tên đợt đấu thầu</div>
+                                    </div>
+                                    <div class="col-lg-9">
+                                        <div class="value-dt">Daotao02</div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <div class="title-dt">Số CV/Số CV liên quan HNX</div>
+                                    </div>
+                                    <div class="col-lg-2">
+                                        <div class="value-dt">Daotao02</div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="title-dt">Ngày công văn HNX</div>
+
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="value-dt">15/12/2021</div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <div class="title-dt">Kiểu phát hành</div>
+                                    </div>
+                                    <div class="col-lg-2">
+                                        <div class="value-dt">Lần đầu</div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="title-dt">Phương thức TL</div>
+
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="value-dt">Định kỳ - Cuối kỳ</div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <div class="title-dt">Kỳ hạn TP</div>
+                                    </div>
+                                    <div class="col-lg-2">
+                                        <div class="value-dt">10 Năm</div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="title-dt">Định kỳ TL</div>
+
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="value-dt">12 tháng</div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <div class="title-dt">Lãi suất danh nghĩa</div>
+                                    </div>
+                                    <div class="col-lg-2">
+                                        <div class="value-dt"> </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="title-dt">Mệnh giá</div>
+
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="value-dt">100,000</div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <div class="title-dt">Ngày đáo hạn</div>
+                                    </div>
+                                    <div class="col-lg-2">
+                                        <div class="value-dt">16/11/2031</div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="title-dt">KL gọi thầu</div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="value-dt">10,000,000,000,000 VND</div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <div class="title-dt">Loại hình trả lãi</div>
+                                    </div>
+                                    <div class="col-lg-2">
+                                        <div class="value-dt">Coupon</div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="title-dt">Kiểu trả lãi</div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="value-dt">Standard coupon</div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <div class="title-dt">Số kỳ TL giả định từ ngày TT đến ĐH</div>
+                                    </div>
+                                    <div class="col-lg-2">
+                                        <div class="value-dt"></div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="title-dt">Biên độ lãi suất</div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="value-dt"> </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <div class="title-dt">Loại lãi suất</div>
+                                    </div>
+                                    <div class="col-lg-2">
+                                        <div class="value-dt">Cố định</div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="title-dt">Loại lãi suất tham chiếu</div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="value-dt"></div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <div class="title-dt">Hình thức bán TP</div>
+                                    </div>
+                                    <div class="col-lg-9">
+                                        <div class="value-dt">Bán ngang, cao hơn hoặc thấp hơn mệnh giá</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <form>
+                <div class="block-investor">
+                    <div class="investor-beside">
+                        <h3 class="title-investor">Danh sách NĐT của thành viên</h3>
+                        <div class="box-investor">
+                            <div class="head-investor">
+                                <div class="input-investor">
+                                    <div class="ip-investor">
+                                        <input type="checkbox">
+                                    </div>
+                                </div>
+                                <div class="name-investor">Tên nhà đầu tư</div>
+                                <div class="adr-investor">Địa chỉ</div>
+                                <div class="phone-investor">Số điện thoại</div>
+                            </div>
+                            <div class="body-investor">
+                                <div class="category-investor">
+                                    <div class="icon-agldown">
+                                        <img src="img/icon-agldowndark.svg" alt="img">
+                                    </div>
+                                    <span>
+                                        Loại hình TK: Cá nhân
+                                    </span>
+                                </div>
+                                <div class="investor-list">
+                                    <div class="item-investor">
+                                        <div class="w-10 text-center">
+                                            <div class="ip-investor">
+                                                <input type="checkbox">
+                                            </div>
+                                        </div>
+                                        <div class="w-45">Ngân hàng Thương mại Cổ phần Ngoại thương Việt Nam</div>
+                                        <div class="w-30"></div>
+                                        <div class="w-15"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="foot-investor">
+                                <div class="foot-investor-left">
+                                    <div class="parameter">
+                                        <span>Đã chọn:</span>
+                                        <span>0</span>
+                                    </div>
+                                    <div class="parameter">
+                                        <span>Tổng số NĐT:</span>
+                                        <span>0</span>
+                                    </div>
+                                </div>
+                                <div class="foot-investor-right">
+                                    <button class="btn-green">Đăng ký</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="investor-beside">
+                        <h3 class="title-investor">Danh sách NĐT tham dự đợt thầu</h3>
+                        <div class="box-investor">
+                            <div class="head-investor">
+                                <div class="input-investor">
+                                    <div class="ip-investor">
+                                        <input type="checkbox">
+                                    </div>
+                                </div>
+                                <div class="name-investor">Tên nhà đầu tư</div>
+                                <div class="adr-investor">Địa chỉ</div>
+                                <div class="phone-investor">Số điện thoại</div>
+                            </div>
+                            <div class="body-investor">
+                                <div class="category-investor">
+                                    <div class="icon-agldown">
+                                        <img src="img/icon-agldowndark.svg" alt="img">
+                                    </div>
+                                    <span>
+                                        Loại hình TK: Cá nhân
+                                    </span>
+                                </div>
+                                <div class="investor-list">
+                                    <div class="item-investor">
+                                        <div class="w-10 text-center">
+                                            <div class="ip-investor">
+                                                <input type="checkbox">
+                                            </div>
+                                        </div>
+                                        <div class="w-45">Qũy bảo hiểm HDB</div>
+                                        <div class="w-30"></div>
+                                        <div class="w-15"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="body-investor">
+                                <div class="category-investor">
+                                    <div class="icon-agldown">
+                                        <img src="img/icon-agldowndark.svg" alt="img">
+                                    </div>
+                                    <span>
+                                        Loại hình TK: Doanh nghiệp
+                                    </span>
+                                </div>
+                                <div class="investor-list">
+                                    <div class="item-investor">
+                                        <div class="w-10 text-center">
+                                            <div class="ip-investor">
+                                                <input type="checkbox">
+                                            </div>
+                                        </div>
+                                        <div class="w-45">Qũy bảo hiểm HDB</div>
+                                        <div class="w-30"></div>
+                                        <div class="w-15"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="body-investor">
+                                <div class="category-investor">
+                                    <div class="icon-agldown">
+                                        <img src="img/icon-agldowndark.svg" alt="img">
+                                    </div>
+                                    <span>
+                                        Loại hình TK: Tổ chức
+                                    </span>
+                                </div>
+                                <div class="investor-list">
+                                    <div class="item-investor">
+                                        <div class="w-10 text-center">
+                                            <div class="ip-investor">
+                                                <input type="checkbox">
+                                            </div>
+                                        </div>
+                                        <div class="w-45">HDBF</div>
+                                        <div class="w-30"></div>
+                                        <div class="w-15"></div>
+                                    </div>
+                                    <div class="item-investor">
+                                        <div class="w-10 text-center">
+                                            <div class="ip-investor">
+                                                <input type="checkbox">
+                                            </div>
+                                        </div>
+                                        <div class="w-45">Ngân hàng Cổ phần Phát triển Hồ Chí Minh</div>
+                                        <div class="w-30"></div>
+                                        <div class="w-15"></div>
+                                    </div>
+                                    <div class="item-investor">
+                                        <div class="w-10 text-center">
+                                            <div class="ip-investor">
+                                                <input type="checkbox">
+                                            </div>
+                                        </div>
+                                        <div class="w-45">Công ty Cổ phần chứng khoán HDB</div>
+                                        <div class="w-30"></div>
+                                        <div class="w-15"></div>
+                                    </div>
+                                    <div class="item-investor">
+                                        <div class="w-10 text-center">
+                                            <div class="ip-investor">
+                                                <input type="checkbox">
+                                            </div>
+                                        </div>
+                                        <div class="w-45">Ngân hàng Thương mại Cổ phần Việt Nam Thương Tín</div>
+                                        <div class="w-30"></div>
+                                        <div class="w-15"></div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                            <div class="foot-investor">
+                                <div class="foot-investor-left">
+                                    <div class="parameter">
+                                        <span>Đã chọn:</span>
+                                        <span>0</span>
+                                    </div>
+                                    <div class="parameter">
+                                        <span>Tổng số NĐT:</span>
+                                        <span>0</span>
+                                    </div>
+                                </div>
+                                <div class="foot-investor-right">
+                                    <button class="btn-green">Hủy ĐK</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="footer-form">
+                    <div class="container">
+                        <button class="btn-save"><img src="img/icon-save.svg" alt="img">Lưu</button>
+                        <button class="btn-cancel"><img src="img/icon-cancel.svg" alt="img">Hủy lệnh</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+    </main>
+
+
+</div>
+
+<a href="javascript:0;" id="back-to-top"><i class="fas fa-angle-up"></i></a>
+
+<script type="text/javascript" src="libs/js/jquery.min.js"></script>
+<script type="text/javascript" src="libs/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="libs/js/swiper.js"></script>
+<script type="text/javascript" src="libs/js/jquery.multiple.select.js"></script>
+<script type="text/javascript" src="libs/js/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
+<script type="text/javascript" src="libs/js/script.js"></script>
+</body>
+</html>

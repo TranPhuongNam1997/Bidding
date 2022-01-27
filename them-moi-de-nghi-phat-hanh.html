@@ -1,0 +1,564 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Đấu thầu</title>
+
+    <link rel="icon" href="img/logo.svg" sizes="any" type="image/svg+xml">
+    <link rel="stylesheet" href="libs/css/bootstrap.min.css">
+    <link rel="stylesheet" href="libs/css/all.css">
+    <link rel="stylesheet" href="libs/css/swiper.css">
+    <link rel="stylesheet" href="libs/css/animate.css">
+    <link rel="stylesheet" href="libs/css/multiple-select.css">
+    <link rel="stylesheet" href="scss/main.min.css">
+</head>
+<body>
+<div id="wrapper">
+    <header class="header">
+        <div class="container">
+            <div class="flex-header">
+                <div class="head-left">
+                    <div class="navigation">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <img class="icon-logo" src="img/logo.svg" alt="img">Dashboard
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="icon-nav" src="img/icon-qt.svg" alt="img">
+                                    <span>Quản trị hệ thống</span>
+                                    <img class="icon-agldown" src="img/icon-agldownnav.svg" alt="img">
+                                </a>
+                                <div class="block-dropdown">
+                                    <ul>
+                                        <li class="active"><a href="#">Quản lý 1</a></li>
+                                        <li><a href="#">Quản lý 2</a></li>
+                                        <li><a href="#">Quản lý 3</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="active">
+                                <a href="#">
+                                    <img class="icon-nav" src="img/icon-dt.svg" alt="img">
+                                    <span>Đấu thầu trái phiếu</span>
+                                    <img class="icon-agldown" src="img/icon-agldownnav.svg" alt="img">
+                                </a>
+                                <div class="block-dropdown">
+                                    <ul>
+                                        <li><a href="#">Đầu thầu 1</a></li>
+                                        <li><a href="#">Đầu thầu 2</a></li>
+                                        <li><a href="#">Đầu thầu 3</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="icon-nav" src="img/icon-tc.svg" alt="img">
+                                    <span>Tra cứu tổng hợp</span>
+                                    <img class="icon-agldown" src="img/icon-agldownnav.svg" alt="img">
+                                </a>
+                                <div class="block-dropdown">
+                                    <ul>
+                                        <li><a href="#">Tra cứu 1</a></li>
+                                        <li><a href="#">Tra cứu 2</a></li>
+                                        <li><a href="#">Tra cứu 3</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="icon-nav" src="img/icon-bc.svg" alt="img">
+                                    <span>Báo cáo</span>
+                                    <img class="icon-agldown" src="img/icon-agldownnav.svg" alt="img">
+                                </a>
+                                <div class="block-dropdown">
+                                    <ul>
+                                        <li><a href="#">Báo cáo 1</a></li>
+                                        <li><a href="#">Báo cáo 2</a></li>
+                                        <li><a href="#">Báo cáo 3</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="icon-nav" src="img/icon-tk.svg" alt="img">
+                                    <span>Thống kê</span>
+                                    <img class="icon-agldown" src="img/icon-agldownnav.svg" alt="img">
+                                </a>
+                                <div class="block-dropdown">
+                                    <ul>
+                                        <li><a href="#">Thống kê 1</a></li>
+                                        <li><a href="#">Thống kê 2</a></li>
+                                        <li><a href="#">Thống kê 3</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="head-right">
+                    <div class="times">
+                        <div>09:12:26</div>
+                        <div>Thứ 2, 06/12/2021</div>
+                    </div>
+                    <div class="notify">
+                        <img src="img/icon-notify.svg" alt="img">
+                        <span>99+</span>
+                    </div>
+                    <div class="user">
+                        <div class="name-user">
+                            <div>Hà  Thị Quỳnh Trang</div>
+                            <div>BID.04</div>
+                        </div>
+                        <div class="avt"><img src="img/avt.png" alt="img"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <div class="bread-crumb">
+                <a href="#"><img class="icon-home" src="img/icon-home.svg" alt="img"></a>
+                <span><img src="img/icon-angleleft.svg" alt="img"></span>
+                <a href="#">Đấu thầu trái phiếu</a>
+                <span><img src="img/icon-angleleft.svg" alt="img"></span>
+                <a href="#">Thêm mới đề nghị phát hành mới TP</a>
+            </div>
+
+            <form>
+                <div class="block-add">
+                    <div class="box-top">
+                        <h3 class="title-add">Thông tin đợt thầu</h3>
+                        <div class="body-search">
+                            <div class="box-search">
+                                <div class="item-search">
+                                    <label>Loại hình phiên thầu</label>
+                                    <select class="sl-multiple">
+                                        <option>value1</option>
+                                        <option>value2</option>
+                                    </select>
+                                </div>
+                                <div class="item-search">
+                                    <label>Số công văn TCPH</label>
+                                    <select class="sl-multiple">
+                                        <option>value1</option>
+                                        <option>value2</option>
+                                    </select>
+                                </div>
+                                <div class="item-search">
+                                    <label>Tổ chức PH</label>
+                                    <select class="sl-multiple">
+                                        <option>value1</option>
+                                        <option>value2</option>
+                                    </select>
+                                </div>
+                                <div class="item-search">
+                                    <label>Loại TP</label>
+                                    <select class="sl-multiple">
+                                        <option>value1</option>
+                                        <option>value2</option>
+                                    </select>
+                                </div>
+                                <div class="item-search">
+                                    <label>Tiền tệ</label>
+                                    <select class="sl-multiple">
+                                        <option>value1</option>
+                                        <option>value2</option>
+                                    </select>
+                                </div>
+                                <div class="item-search">
+                                    <label>Ngày ban hành TCPH</label>
+                                    <select class="sl-multiple" disabled>
+                                        <option>value1</option>
+                                        <option>value2</option>
+                                    </select>
+                                </div>
+                                <div class="item-search">
+                                    <label>Số CV/Số CV liên quan HNX</label>
+                                    <select class="sl-multiple">
+                                        <option>value1</option>
+                                        <option>value2</option>
+                                    </select>
+                                </div>
+                                <div class="item-search">
+                                    <label>Ngày công văn HNX</label>
+                                    <select class="sl-multiple">
+                                        <option>value1</option>
+                                        <option>value2</option>
+                                    </select>
+                                </div>
+                                <div class="item-search">
+                                    <label>Đợt của TCPH</label>
+                                    <select class="sl-multiple" disabled>
+                                        <option>value1</option>
+                                        <option>value2</option>
+                                    </select>
+                                </div>
+                                <div class="item-search">
+                                    <label>Ngày tổ chức PH</label>
+                                    <select class="sl-multiple" disabled>
+                                        <option>value1</option>
+                                        <option>value2</option>
+                                    </select>
+                                </div>
+                                <div class="item-search">
+                                    <label>Ngày PH của đợt ĐT</label>
+                                    <select class="sl-multiple" disabled>
+                                        <option>value1</option>
+                                        <option>value2</option>
+                                    </select>
+                                </div>
+                                <div class="item-search">
+                                    <label>Ngày TT tiền mua TP</label>
+                                    <select class="sl-multiple" disabled>
+                                        <option>value1</option>
+                                        <option>value2</option>
+                                    </select>
+                                </div>
+                                <div class="item-search">
+                                    <label>Ngày công bố KQ</label>
+                                    <select class="sl-multiple">
+                                        <option>value1</option>
+                                        <option>value2</option>
+                                    </select>
+                                </div>
+                                <div class="item-search">
+                                    <label>Ngày hạn nộp phiếu dự thầu</label>
+                                    <select class="sl-multiple">
+                                        <option>value1</option>
+                                        <option>value2</option>
+                                    </select>
+                                </div>
+                                <div class="item-search">
+                                    <label>Thời gian nhận phiếu</label>
+                                    <select class="sl-multiple">
+                                        <option>value1</option>
+                                        <option>value2</option>
+                                    </select>
+                                </div>
+                                <div class="item-search">
+                                    <label>Hình thức ĐT</label>
+                                    <select class="sl-multiple" disabled>
+                                        <option>value1</option>
+                                        <option>value2</option>
+                                    </select>
+                                </div>
+                                <div class="item-search">
+                                    <label>PT xác định KQ</label>
+                                    <select class="sl-multiple" disabled>
+                                        <option>value1</option>
+                                        <option>value2</option>
+                                    </select>
+                                </div>
+                                <div class="item-search">
+                                    <label>Phương thức TT gốc TP</label>
+                                    <select class="sl-multiple" disabled>
+                                        <option>value1</option>
+                                        <option>value2</option>
+                                    </select>
+                                </div>
+                                <div class="item-search">
+                                    <label>Nhóm tham gia số áp dụng</label>
+                                    <select class="sl-multiple">
+                                        <option>value1</option>
+                                        <option>value2</option>
+                                    </select>
+                                </div>
+                                <div class="item-search">
+                                    <label>Nhóm TVĐT tham gia</label>
+                                    <select class="sl-multiple">
+                                        <option>value1</option>
+                                        <option>value2</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-top">
+                        <h3 class="title-add">Thông tin chi tiết thông báo thầu</h3>
+                        <div class="body-search">
+                            <div class="box-search">
+                                <div class="item-search">
+                                    <label>Mã TP</label>
+                                    <select class="sl-multiple">
+                                        <option>value1</option>
+                                        <option>value2</option>
+                                    </select>
+                                </div>
+                                <div class="item-search">
+                                    <label>Tên đợt đấu thầu</label>
+                                    <select class="sl-multiple">
+                                        <option>value1</option>
+                                        <option>value2</option>
+                                    </select>
+                                </div>
+                                <div class="item-search">
+                                    <label>Kiểu phát hành</label>
+                                    <select class="sl-multiple" disabled>
+                                        <option>value1</option>
+                                        <option>value2</option>
+                                    </select>
+                                </div>
+                                <div class="item-search">
+                                    <label>Đơn vị kỳ hạn</label>
+                                    <select class="sl-multiple" disabled>
+                                        <option>value1</option>
+                                        <option>value2</option>
+                                    </select>
+                                </div>
+                                <div class="item-search">
+                                    <label>Loại hình trả lãi</label>
+                                    <select class="sl-multiple" disabled>
+                                        <option>value1</option>
+                                        <option>value2</option>
+                                    </select>
+                                </div>
+                                <div class="item-search">
+                                    <label>Phương thức TL</label>
+                                    <select class="sl-multiple" disabled>
+                                        <option>value1</option>
+                                        <option>value2</option>
+                                    </select>
+                                </div>
+                                <div class="item-search">
+                                    <label>Loại lãi suất</label>
+                                    <select class="sl-multiple">
+                                        <option>value1</option>
+                                        <option>value2</option>
+                                    </select>
+                                </div>
+                                <div class="item-search">
+                                    <label>Biên độ lãi suất</label>
+                                    <select class="sl-multiple">
+                                        <option>value1</option>
+                                        <option>value2</option>
+                                    </select>
+                                </div>
+                                <div class="item-search">
+                                    <label>KL gọi thầu</label>
+                                    <select class="sl-multiple" disabled>
+                                        <option>value1</option>
+                                        <option>value2</option>
+                                    </select>
+                                </div>
+                                <div class="item-search">
+                                    <label>Mã ISIN</label>
+                                    <select class="sl-multiple" disabled>
+                                        <option>value1</option>
+                                        <option>value2</option>
+                                    </select>
+                                </div>
+                                <div class="item-search">
+                                    <label>Đợt ĐT HNX</label>
+                                    <select class="sl-multiple" disabled>
+                                        <option>value1</option>
+                                        <option>value2</option>
+                                    </select>
+                                </div>
+                                <div class="item-search">
+                                    <label>LS danh nghĩa</label>
+                                    <select class="sl-multiple" disabled>
+                                        <option>value1</option>
+                                        <option>value2</option>
+                                    </select>
+                                </div>
+                                <div class="item-search">
+                                    <label>Kỳ hạn</label>
+                                    <select class="sl-multiple">
+                                        <option>value1</option>
+                                        <option>value2</option>
+                                    </select>
+                                </div>
+                                <div class="item-search">
+                                    <label>Định kỳ TL</label>
+                                    <select class="sl-multiple">
+                                        <option>value1</option>
+                                        <option>value2</option>
+                                    </select>
+                                </div>
+                                <div class="item-search">
+                                    <label>Ngày TL đầu tiên</label>
+                                    <select class="sl-multiple">
+                                        <option>value1</option>
+                                        <option>value2</option>
+                                    </select>
+                                </div>
+                                <div class="item-search">
+                                    <label>Loại lãi suất tham chiếu</label>
+                                    <select class="sl-multiple" disabled>
+                                        <option>value1</option>
+                                        <option>value2</option>
+                                    </select>
+                                </div>
+                                <div class="item-search">
+                                    <label>Trạng thái TP</label>
+                                    <select class="sl-multiple" disabled>
+                                        <option>value1</option>
+                                        <option>value2</option>
+                                    </select>
+                                </div>
+                                <div class="item-search">
+                                    <label>Mệnh giá TP</label>
+                                    <select class="sl-multiple" disabled>
+                                        <option>value1</option>
+                                        <option>value2</option>
+                                    </select>
+                                </div>
+                                <div class="item-search">
+                                    <label>Hình thức trái phiếu</label>
+                                    <select class="sl-multiple">
+                                        <option>value1</option>
+                                        <option>value2</option>
+                                    </select>
+                                </div>
+                                <div class="item-search">
+                                    <label>Hình thức bán TP</label>
+                                    <select class="sl-multiple">
+                                        <option>value1</option>
+                                        <option>value2</option>
+                                    </select>
+                                </div>
+                                <div class="item-search">
+                                    <label>Ngày đáo hạn</label>
+                                    <select class="sl-multiple" disabled>
+                                        <option>value1</option>
+                                        <option>value2</option>
+                                    </select>
+                                </div>
+                                <div class="item-search">
+                                    <label>Số kỳ TL giả dịnh từ ngày TT đến ĐH</label>
+                                    <select class="sl-multiple" disabled>
+                                        <option>value1</option>
+                                        <option>value2</option>
+                                    </select>
+                                </div>
+                                <div class="item-search">
+                                    <label>Số lần TT lãi còn lại</label>
+                                    <select class="sl-multiple" disabled>
+                                        <option>value1</option>
+                                        <option>value2</option>
+                                    </select>
+                                </div>
+                                <div class="item-search">
+                                    <label>Lãi suất tham chiếu</label>
+                                    <select class="sl-multiple">
+                                        <option>value1</option>
+                                        <option>value2</option>
+                                    </select>
+                                </div>
+                                <div class="item-search">
+                                    <label>Kiểu trả lãi</label>
+                                    <select class="sl-multiple">
+                                        <option>value1</option>
+                                        <option>value2</option>
+                                    </select>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="button-utilities">
+                        <button>Thêm</button>
+                        <button>Cập nhật</button>
+                        <button>Xóa</button>
+                        <button>Làm mới</button>
+                    </div>
+                    <div class="tbl-popup">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Tên đợt đấu thầu</th>
+                                    <th>Mã Isin</th>
+                                    <th>Đợt ĐT HNX</th>
+                                    <th>Mã TP</th>
+                                    <th>Kỳ hạn TP</th>
+                                    <th>Mệnh giá</th>
+                                    <th>Kiểu phát hành</th>
+                                    <th>Đơn vị KH</th>
+                                    <th>Ngày đáo hạn</th>
+                                    <th>Định kỳ TL/Định kỳ TL GĐ</th>
+                                    <th class="text-right">KL gọi thầu( GT theo MG) </th>
+                                    <th>Ngày TL đầu tiên</th>
+                                    <th>Trạng thái TP</th>
+                                    <th>Số lần TT còn lại</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>AAAA44</td>
+                                    <td>VN0000TP2349</td>
+                                    <td>DDD166</td>
+                                    <td>TP123</td>
+                                    <td>15</td>
+                                    <td>100,000</td>
+                                    <td>Lần đầu</td>
+                                    <td>Năm</td>
+                                    <td>22/11/2036</td>
+                                    <td>6 tháng</td>
+                                    <td class="text-right">2,000,000</td>
+                                    <td>16/05/2022</td>
+                                    <td>Hưởng quyền</td>
+                                    <td>6</td>
+                                </tr>
+                                <tr>
+                                    <td>AAAA44</td>
+                                    <td>VN0000TP2349</td>
+                                    <td>DDD166</td>
+                                    <td>TP123</td>
+                                    <td>15</td>
+                                    <td>100,000</td>
+                                    <td>Lần đầu</td>
+                                    <td>Năm</td>
+                                    <td>22/11/2036</td>
+                                    <td>6 tháng</td>
+                                    <td class="text-right">2,000,000</td>
+                                    <td>16/05/2022</td>
+                                    <td>Hưởng quyền</td>
+                                    <td>6</td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <td colspan="7">
+                                        <button class="render">Kết xuất dữ liệu <img src="img/icon-render.svg" alt="img"></button>
+                                    </td>
+                                    <td colspan="7">Tổng =5,000,000,000,000</td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                </div>
+                <div class="footer-form">
+                    <div class="container">
+                        <button class="btn-save"><img src="img/icon-save.svg" alt="img">Lưu</button>
+                        <button class="btn-cancel"><img src="img/icon-cancel.svg" alt="img">Quay lại</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+    </main>
+
+
+</div>
+
+<a href="javascript:0;" id="back-to-top"><i class="fas fa-angle-up"></i></a>
+
+<script type="text/javascript" src="libs/js/jquery.min.js"></script>
+<script type="text/javascript" src="libs/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="libs/js/swiper.js"></script>
+<script type="text/javascript" src="libs/js/jquery.multiple.select.js"></script>
+<script type="text/javascript" src="libs/js/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
+<script type="text/javascript" src="libs/js/script.js"></script>
+</body>
+</html>
